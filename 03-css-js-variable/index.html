@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>css-js-variable</title>
+    <link rel="stylesheet" href="./styles.css" />
+  </head>
+  <body>
+    <div class="container">
+      <div class="controls">
+        <div class="inputGroup">
+          <label for="blur">blur</label>
+            <input type="range" name="blur" value="0" min="0" max="10" data-unit="px"/>
+        </div>
+        <div class="inputGroup">
+          <label for="color">color</label>
+            <input type="color" name="color" value="#ffff00" />
+        </div>
+        <div class="inputGroup">
+          <label for="space">space</label>
+            <input type="range" name="space" value="0" min="0" max="200" data-unit="px"/>
+        </div>
+      </div>
+
+      <div class="image">
+          <img src="./image.jpg" alt="">
+      </div>
+    </div>
+  </body>
+  <script src='./script.js'></script>
+</html>
